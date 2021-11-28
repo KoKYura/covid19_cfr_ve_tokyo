@@ -1,4 +1,4 @@
-setwd("~/covid-19_cfr_ve_tokyo")
+setwd("~/covid19_cfr_ve_tokyo")
 source("./src/utils.R")
 
 #############################################################################################################
@@ -52,7 +52,7 @@ get_plot <- function(age_,age_name){
   g_death <- 
     ggplot(NULL) +
     ggtitle(age_name)+
-    xlab("Date of deaths")+
+    xlab("Date of death")+
     ylab("")+
     scale_x_date(
       date_breaks = "1 months",
