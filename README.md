@@ -9,7 +9,7 @@ Source code accompanying Ko et al. "Age-specific vaccine effectiveness from COVI
 
 ## Dependencies
 * R ver. 4.1.0
-* {rstan} ver. 2.10.2
+* {rstan} ver. 2.21.2
 
 ## Authors
 [Yura K Ko](https://github.com/KoKYura), [Hiroaki Murayama](https://github.com/hiroaki-murayama), Lisa Yamasaki, Ryo Kinoshita, Hiroshi Nishiura, and Motoi Suzuki
