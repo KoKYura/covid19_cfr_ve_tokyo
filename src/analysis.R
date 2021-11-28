@@ -1,4 +1,4 @@
-setwd("~/covid-19_cfr_ve_tokyo")
+setwd("~/covid19_cfr_ve_tokyo")
 source("./src/utils.R")
 
 # 1. Convolution of the incidence on a confirmed date with the function representing the relative frequency of the delay for each vaccine status####

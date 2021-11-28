@@ -2,7 +2,7 @@ libraries = c("dplyr","magrittr","tidyr","reshape2","ggplot2","openxlsx","RColor
               "readxl","writexl","gridExtra","MASS","readr","stats","pracma","stringr","mixdist","corpcor","rstan","bayesplot")
 for(x in libraries) { library(x,character.only=TRUE,warn.conflicts=FALSE,quietly=TRUE) }
 
-setwd("~/covid-19_cfr_ve_tokyo")
+setwd("~/covid19_cfr_ve_tokyo")
 
 # 1. Import data ####
 
