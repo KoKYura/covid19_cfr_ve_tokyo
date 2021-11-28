@@ -7,7 +7,7 @@ Source code accompanying Ko et al. "Age-specific vaccine effectiveness from COVI
 ## Licence
 [MIT](https://github.com/KoKYura/covid19_cfr_ve_tokyo/blob/main/LICENSE)
 
-## Dependencies
+## Dependency
 * R ver. 4.1.0
 
 ## Authors
