@@ -1,4 +1,4 @@
-# Implications for the age-dependent heterogeneity of relative transmissibility of SARS-CoV-2 Delta variant to Alpha variant
+# Age-specific vaccine effectiveness from COVID-19 death and the impact of healthcare burden on age-specific case fatality risk in Tokyo, Japan: a retrospective surveillance study, Janually-September, 2021
 Source code accompanying Ko et al. "Age-specific vaccine effectiveness from COVID-19 death and the impact of healthcare burden on age-specific case fatality risk in Tokyo, Japan: a retrospective surveillance study, Janually-September, 2021".
 
 ## Main notebook
