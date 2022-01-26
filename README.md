@@ -12,4 +12,4 @@ Source code accompanying Ko et al. "Evaluating the age-specific effectiveness of
 * {rstan} ver. 2.21.2
 
 ## Authors
-[Yura K Ko](https://github.com/KoKYura), [Hiroaki Murayama](https://github.com/hiroaki-murayama), Lisa Yamasaki, Ryo Kinoshita, and Motoi Suzuki, Hiroshi Nishiura.
+[Yura K Ko](https://github.com/KoKYura), [Hiroaki Murayama](https://github.com/hiroaki-murayama), Lisa Yamasaki, Ryo Kinoshita, Motoi Suzuki, Hiroshi Nishiura.
