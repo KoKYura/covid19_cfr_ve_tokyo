@@ -1,4 +1,4 @@
-setwd("~/covid19_cfr_ve_tokyo")
+setwd("~/covid-19_cfr_ve_tokyo")
 source("./src/utils.R")
 
 #############################################################################################################
@@ -18,14 +18,14 @@ get_plot <- function(age_,age_name){
   g_case <- 
     ggplot(NULL) +
     ggtitle(age_name)+
-    xlab("Date of confirmation")+
-    ylab("Number of \ncases/deaths")+
+    xlab(NULL)+
+    ylab(NULL)+
     scale_x_date(
       date_breaks = "1 months",
-      date_labels = "%b-%d",
+      date_labels = "%b",
       expand = c(0,0)
     ) +
-    scale_y_continuous(sec.axis = sec_axis(~ ./sec_case , name = "")) +
+    scale_y_continuous(sec.axis = sec_axis(~ ./sec_case, name = NULL)) +
     geom_bar(data=data_case,
              aes(x= date_confirm, 
                  y=n
@@ -52,14 +52,14 @@ get_plot <- function(age_,age_name){
   g_death <- 
     ggplot(NULL) +
     ggtitle(age_name)+
-    xlab("Date of death")+
-    ylab("")+
+    xlab(NULL)+
+    ylab(NULL)+
     scale_x_date(
       date_breaks = "1 months",
-      date_labels = "%b-%d",
+      date_labels = "%b",
       expand = c(0,0)
     ) +
-    scale_y_continuous(sec.axis = sec_axis(~ ./sec_death , name = "Proportion of \nfully vaccinated (%)")) +
+    scale_y_continuous(sec.axis = sec_axis(~ ./sec_death, name = NULL)) +
     geom_bar(data=data_death,
              aes(x= date_death, 
                  y=n
@@ -92,10 +92,10 @@ plot_80s <- get_plot("80s","80s")
 plot_90_100s <- get_plot("90_100s","90s+")
 
 plot_all <- plot_grid(plot_30_50s[[1]],plot_30_50s[[2]],
-                       plot_60s[[1]],plot_60s[[2]],
-                       plot_70s[[1]],plot_70s[[2]],
-                       plot_80s[[1]],plot_80s[[2]],
-                       plot_90_100s[[1]],plot_90_100s[[2]],ncol = 2,align = "v")
+                      plot_60s[[1]],plot_60s[[2]],
+                      plot_70s[[1]],plot_70s[[2]],
+                      plot_80s[[1]],plot_80s[[2]],
+                      plot_90_100s[[1]],plot_90_100s[[2]],ncol = 2,align = "v")
 
 ggsave(plot=plot_all,filename = "./output/Figure 1.png",width = 12,height = 15)
 

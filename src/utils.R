@@ -1,4 +1,4 @@
-libraries = c("dplyr","magrittr","tidyr","reshape2","ggplot2","openxlsx","RColorBrewer","zoo",
+libraries = c("dplyr","magrittr","tidyr","reshape2","ggplot2","openxlsx","RColorBrewer","zoo","cowplot",
               "readxl","writexl","gridExtra","MASS","readr","stats","pracma","stringr","mixdist","corpcor","rstan","bayesplot")
 for(x in libraries) { library(x,character.only=TRUE,warn.conflicts=FALSE,quietly=TRUE) }
 
