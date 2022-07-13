@@ -1,5 +1,8 @@
-# Evaluating the age-specific effectiveness of COVID-19 vaccines against death and the impact of healthcare burden on age-specific case fatality risk in Tokyo, Japan
-Source code accompanying Ko et al. "Evaluating the age-specific effectiveness of COVID-19 vaccines against death and the impact of healthcare burden on age-specific case fatality risk in Tokyo, Japan". Details of the study design including the models and statistical inference are available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4032463). Short report of the present study in Japanese is availale on [the website of the National Institute of Infectious Diseases](https://www.niid.go.jp/niid/ja/2019-ncov/2484-idsc/10873-covid19-65.html).
+# covid_cfr_tokyo
+Supporting materials for Ko YK, Murayama H, Yamasaki L, Kinoshita R, Suzuki M, Nishiura H 2022. "Age-dependent effects of COVID-19 vaccine and of healthcare burden on COVID-19 deaths, Tokyo, Japan" 
+Published in *Emerging Infectious Diseases* doi: 10.3201/eid2809.220377[https://doi.org/10.3201/eid2809.220377]
+
+Short report of the present study in Japanese is availale on [the website of the National Institute of Infectious Diseases](https://www.niid.go.jp/niid/ja/2019-ncov/2484-idsc/10873-covid19-65.html).
 
 ## Main script
 - [analysis.R](https://github.com/KoKYura/covid19_cfr_ve_tokyo/blob/main/src/analysis.R) :R code to reproduce the analysis in the paper
